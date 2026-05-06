@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
+  <title id="title">Five Guys Consulting logo</title>
+  <desc id="desc">A bold red and white consulting wordmark for Five Guys Consulting.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#111111" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect x="24" y="24" width="712" height="212" rx="18" fill="#ffffff" stroke="#121212" stroke-width="10" filter="url(#shadow)"/>
+  <rect x="50" y="50" width="660" height="126" rx="10" fill="#d71920"/>
+  <g fill="#ffffff" font-family="Arial Black, Impact, Helvetica, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="380" y="139" font-size="76" letter-spacing="2">FIVE GUYS</text>
+  </g>
+  <g fill="#121212" font-family="Arial, Helvetica, sans-serif" font-weight="800" text-anchor="middle">
+    <text x="380" y="213" font-size="34" letter-spacing="8">CONSULTING</text>
+  </g>
+  <g fill="#d71920">
+    <circle cx="92" cy="204" r="7"/>
+    <circle cx="124" cy="204" r="7"/>
+    <circle cx="156" cy="204" r="7"/>
+    <circle cx="604" cy="204" r="7"/>
+    <circle cx="636" cy="204" r="7"/>
+    <circle cx="668" cy="204" r="7"/>
+  </g>
+</svg>
