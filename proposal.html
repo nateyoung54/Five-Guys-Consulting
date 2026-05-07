@@ -1014,6 +1014,14 @@
 
       <ul class="toc-list">
         <li class="toc-section">
+          <a class="toc-section-link" href="#team">
+            <span class="toc-num">—</span>
+            <span class="toc-label">Meet the Team</span>
+            <span class="toc-dots"></span>
+            <span class="toc-page-num">2</span>
+          </a>
+        </li>
+        <li class="toc-section">
           <a class="toc-section-link" href="#background">
             <span class="toc-num">1</span>
             <span class="toc-label">Project Background</span>
@@ -1061,14 +1069,13 @@
             <span class="toc-dots"></span>
             <span class="toc-page-num">7</span>
           </a>
-        </li>
-        <li class="toc-section">
-          <a class="toc-section-link" href="#team">
-            <span class="toc-num">5</span>
-            <span class="toc-label">Meet the Team</span>
-            <span class="toc-dots"></span>
-            <span class="toc-page-num">8</span>
-          </a>
+          <ul class="toc-sub">
+            <li class="toc-section"><a class="toc-section-link" href="#appendix"><span class="toc-num">A.1</span><span class="toc-label">Assumptions</span><span class="toc-dots"></span><span class="toc-page-num">7</span></a></li>
+            <li class="toc-section"><a class="toc-section-link" href="#appendix"><span class="toc-num">A.2</span><span class="toc-label">Requirements Gathering Methods</span><span class="toc-dots"></span><span class="toc-page-num">7</span></a></li>
+            <li class="toc-section"><a class="toc-section-link" href="#appendix"><span class="toc-num">A.3</span><span class="toc-label">Interview Questions</span><span class="toc-dots"></span><span class="toc-page-num">7</span></a></li>
+            <li class="toc-section"><a class="toc-section-link" href="#appendix"><span class="toc-num">A.4</span><span class="toc-label">Suggestions &amp; Implementation Guidance</span><span class="toc-dots"></span><span class="toc-page-num">7</span></a></li>
+            <li class="toc-section"><a class="toc-section-link" href="#revenue"><span class="toc-num">A.5</span><span class="toc-label">Revenue Chart</span><span class="toc-dots"></span><span class="toc-page-num">8</span></a></li>
+          </ul>
         </li>
       </ul>
     </div>
@@ -1459,14 +1466,15 @@
           </thead>
           <tbody>
             <tr class="cpm-row"><td class="task-id">A</td><td>Plan / CPM</td><td>0</td><td>3</td><td>3</td></tr>
-            <tr class="cpm-row"><td class="task-id">B</td><td>Requirement Gathering</td><td>4</td><td>8</td><td>4</td></tr>
-            <tr class="cpm-row"><td class="task-id">C</td><td>DFD</td><td>9</td><td>14</td><td>5</td></tr>
-            <tr><td class="task-id">D</td><td>ERD</td><td>15</td><td>17</td><td>2</td></tr>
-            <tr class="cpm-row"><td class="task-id">E</td><td>Create Database</td><td>9</td><td>13</td><td>4</td></tr>
-            <tr class="cpm-row"><td class="task-id">F</td><td>Programming</td><td>18</td><td>22</td><td>4</td></tr>
-            <tr class="cpm-row"><td class="task-id">G</td><td>Testing / Fixing</td><td>23</td><td>25</td><td>2</td></tr>
-            <tr class="cpm-row"><td class="task-id">H</td><td>Implementation</td><td>26</td><td>28</td><td>2</td></tr>
-            <tr class="cpm-row"><td class="task-id">I</td><td>Final Documentation</td><td>29</td><td>32</td><td>3</td></tr>
+            <tr class="cpm-row"><td class="task-id">B</td><td>Requirement Gathering</td><td>4</td><td>6</td><td>2</td></tr>
+            <tr class="cpm-row"><td class="task-id">C</td><td>DFD</td><td>7</td><td>11</td><td>4</td></tr>
+            <tr><td class="task-id">D</td><td>ERD</td><td>7</td><td>9</td><td>2</td></tr>
+            <tr><td class="task-id">E</td><td>Create Database</td><td>7</td><td>10</td><td>3</td></tr>
+            <tr class="cpm-row"><td class="task-id">F</td><td>Programming</td><td>12</td><td>15</td><td>3</td></tr>
+            <tr class="cpm-row"><td class="task-id">G</td><td>Testing / Fixing</td><td>16</td><td>18</td><td>2</td></tr>
+            <tr class="cpm-row"><td class="task-id">H</td><td>Training</td><td>19</td><td>20</td><td>1</td></tr>
+            <tr class="cpm-row"><td class="task-id">I</td><td>Implementation</td><td>21</td><td>23</td><td>2</td></tr>
+            <tr class="cpm-row"><td class="task-id">J</td><td>Final Documentation</td><td>24</td><td>26</td><td>2</td></tr>
           </tbody>
         </table>
         <p style="font-size:.82rem; color:var(--muted);">Rows highlighted in red indicate tasks on the Critical Path. Total estimated project duration: <strong>26 weeks</strong>.</p>
@@ -1475,8 +1483,8 @@
 
       <div class="sub-section" id="cpm">
         <h3 class="sub-heading">3.3 &nbsp; Critical Path</h3>
-        <p>The CPM (highlighted above) of this project goes through tasks <strong>1, 2, 3, 5, 6, 7, 8, 9, 10</strong>, as this represents the shortest amount of time the project will take to fully complete. The slack value in task four exists because task five cannot start without completing both tasks three and four. Task four will be completed three weeks before task three, but the team cannot proceed until both are complete.</p>
-        <p>This updated CPM has been revised with Bud and Pearl's requests incorporated. A training element has been added, and the total project time has been shortened by one week — bringing the total to <strong>26 weeks</strong>. Adjusted tasks have been updated to address the time constraint while maintaining the same critical path.</p>
+        <p>The CPM (highlighted above) of this project goes through tasks <strong>1, 2, 3, 6, 7, 8, 9, 10</strong>, as this represents the shortest amount of time the project will take to fully complete. Tasks 4 (ERD) and 5 (Create Database) run in parallel during the design phase and both complete before programming begins, giving each a slack window before the critical path resumes at task 6.</p>
+        <p>This updated CPM has been revised with Bud and Pearl's requests incorporated. A training element has been added after testing and before implementation, and the total project time has been shortened by one week — bringing the total to <strong>26 weeks</strong>. Adjusted task durations have been updated to address the time constraint while maintaining the same critical path.</p>
         <img class="chart-img" src="Visuals%20to%20be%20added/Critical%20Path%20Visual.png" alt="Critical Path Diagram">
       </div>
 
@@ -1531,47 +1539,58 @@
       </div>
 
       <div class="sub-section">
-        <h3 class="sub-heading">A.2 &nbsp; Interview Questions</h3>
-        <div class="appendix-grid">
+        <h3 class="sub-heading">A.2 &nbsp; Requirements Gathering Methods</h3>
+        <p style="margin-bottom:14px;">Three stakeholder groups were identified. The table below shows which method(s) were used for each group and why.</p>
+        <div class="appendix-grid" style="grid-template-columns:1fr 1fr 1fr;">
           <div class="appendix-card">
-            <h4>Current Workflow</h4>
+            <h4>Owners / Management</h4>
             <ul>
-              <li>How are orders currently taken and sent to the kitchen?</li>
-              <li>How do you track inventory today?</li>
-              <li>How do you currently place supplier orders?</li>
-              <li>What does your current end-of-day process look like?</li>
+              <li><strong>Interview ✓</strong> — Direct access to the decision-makers who know current pain points and goals best.</li>
+              <li><strong>Observation ✓</strong> — Lets us see daily operations firsthand and catch issues not raised in interviews.</li>
+              <li><strong>Survey ✗</strong> — Unnecessary with a small, accessible group; interviews provide richer detail.</li>
             </ul>
           </div>
           <div class="appendix-card">
-            <h4>Pain Points</h4>
+            <h4>Kitchen Staff / Servers</h4>
             <ul>
-              <li>What are the most common errors or problems you experience?</li>
-              <li>How often do you run out of key ingredients?</li>
-              <li>Are there times where service slows down a lot? What causes that?</li>
-              <li>What data do you wish you had but currently don't?</li>
+              <li><strong>Observation ✓</strong> — Best way to see real-time order and kitchen workflow and identify bottlenecks.</li>
+              <li><strong>Interview ✓</strong> — Gives staff a chance to describe recurring problems from their own perspective.</li>
+              <li><strong>Survey ✗</strong> — The group is small enough that direct conversation is more effective than a survey.</li>
             </ul>
           </div>
           <div class="appendix-card">
-            <h4>Goals &amp; Expectations</h4>
+            <h4>Customers</h4>
             <ul>
-              <li>What does success look like to you at the end of this project?</li>
-              <li>How comfortable are you and your staff with technology?</li>
-              <li>Are there any systems you've tried before that didn't work?</li>
-            </ul>
-          </div>
-          <div class="appendix-card">
-            <h4>Logistics &amp; Constraints</h4>
-            <ul>
-              <li>What hours are you typically least busy (for training)?</li>
-              <li>Are there any upcoming busy periods we should plan around?</li>
-              <li>What budget range has been set for hardware?</li>
+              <li><strong>Survey ✓</strong> — Efficient way to collect broad feedback from many customers at once.</li>
+              <li><strong>Interview ✗</strong> — Impractical to conduct in-depth interviews during active service hours.</li>
+              <li><strong>Observation ✗</strong> — Watching customers order does not reveal preferences or satisfaction levels.</li>
             </ul>
           </div>
         </div>
       </div>
 
       <div class="sub-section">
-        <h3 class="sub-heading">A.3 &nbsp; Suggestions &amp; Implementation Guidance</h3>
+        <h3 class="sub-heading">A.3 &nbsp; Interview Questions</h3>
+        <div class="appendix-grid">
+          <div class="appendix-card">
+            <h4>Owners/Management</h4>
+            <ul>
+              <li>What information do you currently need at the end of the day, and what are the issues with using the paper-based system for this?</li>
+              <li>What features do you want in the new system to improve inventory tracking and ordering?</li>
+            </ul>
+          </div>
+          <div class="appendix-card">
+            <h4>Customers</h4>
+            <ul>
+              <li>What aspects of the ordering process are the most important to you when visiting the restaurant?</li>
+              <li>Have you experienced issues with your orders or long wait times, and what could be improved to fix this?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="sub-section">
+        <h3 class="sub-heading">A.4 &nbsp; Suggestions &amp; Implementation Guidance</h3>
         <div class="highlight-box">
           <p><strong>Training:</strong> Do not rush the training when it comes to learning the new system.</p>
         </div>
@@ -1587,6 +1606,43 @@
     <div class="doc-footer">
       <span>Five Guys Consulting — BP Burger Project Charter</span>
       <span class="footer-mark">Appendix A</span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ APPENDIX A.5: REVENUE CHART -->
+<div class="page" id="revenue">
+  <div class="content-page">
+    <div class="doc-header">
+      <div class="doc-header-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" role="img" aria-label="Five Guys Consulting">
+          <rect x="24" y="24" width="712" height="212" rx="18" fill="#ffffff" stroke="#121212" stroke-width="10"/>
+          <rect x="50" y="50" width="660" height="126" rx="10" fill="#d71920"/>
+          <g fill="#ffffff" font-family="Arial Black,Impact,Helvetica,sans-serif" font-weight="900" text-anchor="middle"><text x="380" y="139" font-size="76" letter-spacing="2">FIVE GUYS</text></g>
+          <g fill="#121212" font-family="Arial,Helvetica,sans-serif" font-weight="800" text-anchor="middle"><text x="380" y="213" font-size="34" letter-spacing="8">CONSULTING</text></g>
+          <g fill="#d71920"><circle cx="92" cy="204" r="7"/><circle cx="124" cy="204" r="7"/><circle cx="156" cy="204" r="7"/><circle cx="604" cy="204" r="7"/><circle cx="636" cy="204" r="7"/><circle cx="668" cy="204" r="7"/></g>
+        </svg>
+      </div>
+      <div class="doc-header-title"><strong>BP Burger Systems Modernization</strong>Appendix A.5 — Revenue Chart</div>
+    </div>
+
+    <div class="content-body">
+      <div class="section-number-block">
+        <div class="section-number" style="background:var(--ink); font-size:.78rem;">A.5</div>
+        <div class="section-number-text">
+          <p class="section-eyebrow">Appendix — Continued</p>
+          <h2>Revenue Chart</h2>
+        </div>
+      </div>
+
+      <div class="sub-section">
+        <img class="chart-img" src="Visuals%20to%20be%20added/BP%20Revenue%20chart.png" alt="Revenue Chart">
+      </div>
+    </div>
+
+    <div class="doc-footer">
+      <span>Five Guys Consulting — BP Burger Project Charter</span>
+      <span class="footer-mark">Appendix A.5</span>
     </div>
   </div>
 </div>
