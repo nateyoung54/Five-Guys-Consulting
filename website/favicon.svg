@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="FGC">
+  <rect width="128" height="128" rx="24" fill="#d71920"/>
+  <rect x="10" y="10" width="108" height="108" rx="17" fill="none" stroke="#ffffff" stroke-width="8"/>
+  <text x="64" y="59" fill="#ffffff" font-family="Arial Black, Impact, Helvetica, sans-serif" font-size="34" font-weight="900" text-anchor="middle">FG</text>
+  <text x="64" y="91" fill="#ffffff" font-family="Arial Black, Impact, Helvetica, sans-serif" font-size="27" font-weight="900" text-anchor="middle">C</text>
+</svg>
